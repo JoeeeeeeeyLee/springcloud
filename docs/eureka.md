@@ -1,4 +1,4 @@
-## 使用eureka搭建服务注册中心
+## 一.使用spring cloud搭建服务注册中心
 
 ### 创建服务注册中心
 
@@ -107,3 +107,50 @@ eureka.client.service-url.defaultZone=http://localhost:1111/eureka
 运行`DemoApplication`，然后刷新`http://localhost:1111`页面，即可看到已经注册成功
 
 现在只是实现一个单节点的服务注册中心，一旦发生故障则整个服务就会瘫痪，所以实践中要搭建高可用服务注册中心
+
+## 二.使用spring cloud搭建高可用服务注册中心
+
+在eureka中通过集群实现高可用，Eureka Server的高可用实际上是将自己作为一个服务注册到其他的服务中心上，这样就会形成一组互相注册的服务注册中心，进而实现服务清单的互相同步，达到高可用的效果
+
+### 增加配置文件
+
+在上面的基础上添加两个配置文件，和`application.properties`文件放在同一个目录下面，分别是`application-peer1.properties`和`application-peer2.properties`
+
+```properties
+server.port=1111
+eureka.instance.hostname=peer1
+eureka.client.fetch-registry=false
+eureka.client.register-with-eureka=false
+eureka.client.service-url.defaultZone=http://peer2:1112/eureka/
+```
+
+```properties
+server.port=1112
+eureka.instance.hostname=peer1
+eureka.client.register-with-eureka=false
+eureka.client.fetch-registry=false
+eureka.client.service-url.defaultZone=http://peer1:1111/eureka/
+```
+
++   在peer1的配置文件中，让它的`server-url`指向peer2；在peer2的配置文件中，让它的`server-url`指向peer1
+
++   需要在`/etc/hosts`文件中添加`127.0.0.1  peer1`和`127.0.0.1  peer2`这样才可以访问
++   由于peer1和peer2互相指向对方，实际上我们构建了一个双节点的服务注册中心集群
+
+不从idea运行项目，直接打开终端输入`mvn package -Dmaven.test.skip=true`不打包测试也不编译，然后在终端通过java命令指定不同的配置文件
+
+```
+java -jar eureka-server-0.0.1-SNAPSHOT.jar --spring.profiles.active=peer1
+java -jar eureka-server-0.0.1-SNAPSHOT.jar --spring.profiles.active=peer2
+```
+
+分别访问`http://localhost:1111`和`http://localhost:1112`可以发现在peer1节点的DS Replics我们已经看到peer2节点了，在peer2节点的DS Replics我们已经也可以看到peer1节点，如此我们的服务注册中心集群就搭建好了
+
+修改serviceprovider中的配置文件
+
+```
+spring.application.name=hello-service
+eureka.client.service-url.defaultZone=http://peer1:1111/eureka,http://peer2:1112/eureka/
+```
+
+可以发现注册到两个中心

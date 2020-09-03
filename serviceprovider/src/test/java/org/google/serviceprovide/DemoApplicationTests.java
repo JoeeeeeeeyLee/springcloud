@@ -1,11 +1,10 @@
-package org.google.serviceprovider;
-
+package org.google.serviceprovide;
 
 import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ServiceproviderApplicationTests {
+class DemoApplicationTests {
 
     @Test
     void contextLoads() {

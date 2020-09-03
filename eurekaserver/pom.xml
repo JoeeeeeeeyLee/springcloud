@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>org.google</groupId>
-    <artifactId>serviceprovider</artifactId>
+    <artifactId>eurekaserver</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>serviceprovider</name>
+    <name>eurekaserver</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
