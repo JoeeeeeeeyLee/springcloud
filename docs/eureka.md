@@ -106,4 +106,4 @@ eureka.client.service-url.defaultZone=http://localhost:1111/eureka
 
 运行`DemoApplication`，然后刷新`http://localhost:1111`页面，即可看到已经注册成功
 
-现在只是实现一个单节点的服务注册中心，一旦发生故障则整个服务就会瘫痪，
+现在只是实现一个单节点的服务注册中心，一旦发生故障则整个服务就会瘫痪，所以实践中要搭建高可用服务注册中心
