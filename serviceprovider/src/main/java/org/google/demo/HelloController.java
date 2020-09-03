@@ -11,15 +11,15 @@ import java.util.List;
 
 @RestController
 public class HelloController {
-    private final Logger logger=Logger.getLogger(getClass());
+    private final Logger logger = Logger.getLogger(getClass());
 
     @Autowired
     private DiscoveryClient client;
 
-    public String index(){
-        List<ServiceInstance> instances=client.getInstances("hello-service");
-        for (int i=0;i<instances.size();i++){
-            logger.info("/hello,host:"+instances.get(i).getHost()+",service-id:"+instances.get(i).getServiceId());
+    public String index() {
+        List<ServiceInstance> instances = client.getInstances("hello-service");
+        for (int i = 0; i < instances.size(); i++) {
+            logger.info("/hello,host:" + instances.get(i).getHost() + ",service-id:" + instances.get(i).getServiceId());
         }
         return "Hello Eureka";
     }
