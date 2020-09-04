@@ -1,4 +1,4 @@
-package org.google.serviceprovide;
+package org.google.serviceprovider;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,10 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @EnableDiscoveryClient
 @SpringBootApplication
-public class ServiceProvideApplication {
+public class ServiceproviderApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ServiceProvideApplication.class, args);
+        SpringApplication.run(ServiceproviderApplication.class, args);
     }
 
 }
