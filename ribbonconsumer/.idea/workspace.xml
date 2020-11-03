@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="af99ebf6-7b8e-40b1-bd8e-349afe26f787" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../eurekaserver/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../serviceprovider/src/test/java/org/google/serviceprovider/ServiceproviderApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="ee2ce3db" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/.m2/wrapper/dists/apache-maven-3.6.3-bin/1iopthnavndlasol9gbrbg6bf2/apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1h1oo2HbVYMk4R6FHO0rMp3FD5R" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.RibbonconsumerApplication">
+    <configuration name="RibbonconsumerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.google.ribbonconsumer.RibbonconsumerApplication" />
+      <module name="ribbonconsumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.google.ribbonconsumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RibbonconsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ribbonconsumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.google.ribbonconsumer.RibbonconsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RibbonconsumerApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="af99ebf6-7b8e-40b1-bd8e-349afe26f787" name="Default Changelist" comment="" />
+      <created>1599188132825</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599188132825</updated>
+      <workItem from="1599188139794" duration="2938000" />
+      <workItem from="1599204579451" duration="3006000" />
+      <workItem from="1604058944590" duration="893000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1638" height="382" key="GridCell.Tab.0.bottom" timestamp="1604060626755">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="382" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1604060626755" />
+    <state width="1638" height="382" key="GridCell.Tab.0.center" timestamp="1604060626754">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="382" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1604060626754" />
+    <state width="1638" height="382" key="GridCell.Tab.0.left" timestamp="1604060626753">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="382" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1604060626753" />
+    <state width="1638" height="382" key="GridCell.Tab.0.right" timestamp="1604060626754">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="382" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1604060626754" />
+    <state width="1638" height="382" key="GridCell.Tab.1.bottom" timestamp="1604060626756">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="382" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1604060626756" />
+    <state width="1638" height="382" key="GridCell.Tab.1.center" timestamp="1604060626755">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="382" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1604060626755" />
+    <state width="1638" height="382" key="GridCell.Tab.1.left" timestamp="1604060626755">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="382" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1604060626755" />
+    <state width="1638" height="382" key="GridCell.Tab.1.right" timestamp="1604060626756">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="382" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1604060626756" />
+    <state x="208" y="188" key="new project wizard" timestamp="1599205163128">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="208" y="188" key="new project wizard/0.0.1680.1050@0.0.1680.1050" timestamp="1599205163128" />
+  </component>
+</project>
