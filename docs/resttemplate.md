@@ -1,6 +1,0 @@
-# RestTemplate
-
-RestTemplate是spring-web中的一个REST客户端，它遵循REST的设计原则，提供简单的API让我们可以调用HTTP服务。RestTemplate本身不具有负载均衡的功能，该类与Spring Cloud也没有关系，但是为什么加入`@LoadBalanced`注解后，一个RestTemplate实例就具有负载均衡的功能呢？这主要得益于RestTemplate的拦截器功能
-
-在Spring Cloud中，使用`@LoadBalanced`修饰的RestTemplate，在Spring容器启动时，会为这些被修饰过的RestTemplate添加拦截器，拦截器中使用了`LoadBalancerClient`来处理请求`LoadBalancerClient`，`LoadBalancerClient`本来就是Spring封装的负载均衡客户端，通过这样姐姐处理，使得RestTemplate就拥有了负载均衡的功能
-
